@@ -1,8 +1,12 @@
 .container {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .navbar {
-  height: 70px;
+  height: 80px;
+  background-color: #cde2d5f1;
+}
+.nav-link {
+  font-size: large;
 }
 .orange-bg {
   background-color: #fceae8;
@@ -21,4 +25,41 @@
   border-radius: 8px;
   padding: 9px 25px;
   cursor: pointer;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cat1 {
+  /* background-color: orange; */
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 166, 0, 0.753) 20%,
+    rgb(231, 125, 3) 80%
+  );
+}
+.cat2 {
+  /* background-color: orchid; */
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 0, 191) 20%,
+    rgb(211, 0, 176) 80%
+  );
+}
+.cat3 {
+  /* background-color: blue; */
+  background-image: linear-gradient(
+    to left,
+    rgb(25, 0, 255) 20%,
+    rgb(0, 2, 148) 80%
+  );
+}
+.categories h1 {
+  color: white;
+}
+.categories img {
+  width: 100px;
 }
