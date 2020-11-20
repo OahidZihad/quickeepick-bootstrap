@@ -2,8 +2,9 @@
   margin-bottom: 70px;
 }
 .navbar {
-  height: 80px;
-  background-color: #cde2d5f1;
+  /* height: 80px; */
+  background-color: #ff91c81e;
+  border-radius: 10px;
 }
 .nav-link {
   font-size: large;
@@ -70,4 +71,10 @@
 }
 .backpack .btn {
   padding-bottom: 20px;
+}
+#subscribe {
+  height: 300px;
+}
+#subscribe h6 {
+  color: gray;
 }
